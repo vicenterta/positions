@@ -47,22 +47,22 @@
     </section>
 
     <section id="relative">
-      <h2>Position:relative</h2>
+      <h2>Position: relative</h2>
 
       <div></div>
       <div class="pink"></div>
       <div></div>
-      <p>No CSS, o position: relative permite posicionar um elemento em relação à sua posição original no fluxo normal da página. Isso significa que, ao aplicar propriedades como top, right, bottom ou left, o elemento se move a partir do ponto onde normalmente estaria, sem afetar o espaço que ocupa no layout — ou seja, os outros elementos continuam se comportando como se ele ainda estivesse em sua posição original. Além disso, quando um elemento tem position: relative, ele pode servir como referência de posicionamento (ou container de referência) para elementos filhos com position: absolute, o que é muito útil para criar layouts mais controlados e precisos.
+      <p>No CSS, o <strong>position: relative</strong> permite posicionar um elemento em relação à sua posição original no fluxo normal da página. Isso significa que, ao aplicar propriedades como top, right, bottom ou left, o elemento se move a partir do ponto onde normalmente estaria, sem afetar o espaço que ocupa no layout — ou seja, os outros elementos continuam se comportando como se ele ainda estivesse em sua posição original. Além disso, quando um elemento tem position: relative, ele pode servir como referência de posicionamento (ou container de referência) para elementos filhos com position: absolute, o que é muito útil para criar layouts mais controlados e precisos.
       </p>
     </section>
 
     <section id="fixed">
-      <h2>Position: absolute</h2>
+      <h2>Position: fixed</h2>
 
       <div></div>
       <div class="pink"></div>
       <div></div>
-      <p>No CSS, o <strong>position: absolute</strong> remove o elemento do fluxo normal da página e o posiciona em relação ao primeiro ancestral posicionado (ou seja, um elemento pai que tenha position diferente de static). Caso não exista nenhum ancestral posicionado, ele será alinhado em relação ao próprio documento (viewport). As propriedades top, right, bottom e left definem a distância do elemento em relação às bordas do seu elemento de referência. Como ele sai do fluxo, outros elementos da página se comportam como se ele não existisse, o que é útil para criar layouts sobrepostos, caixas flutuantes e elementos de interface, mas requer cuidado para não quebrar o alinhamento geral da página.</p>
+     <p>No CSS, o position: fixed faz com que o elemento seja posicionado de forma fixa em relação à janela de visualização (viewport), ou seja, ele permanece no mesmo lugar mesmo quando o usuário rola a página. As propriedades top, right, bottom e left definem sua posição fixa na tela. Esse tipo de posicionamento é muito usado para criar menus fixos, botões flutuantes ou barras de navegação que permanecem sempre visíveis. Diferente do absolute, o elemento com fixed não se move junto com o conteúdo e não depende de nenhum elemento pai para definir sua posição — ele está sempre preso à janela do navegador.</p>
     
     </section>
     <section id="absolute">
